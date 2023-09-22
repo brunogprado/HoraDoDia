@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do dia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="h1">Hora do dia</h1>
+        <button id="btn" onclick="carregar()">Clique aqui para descobrir a hora!</button><br>
+        <input style="display: none;" id="refresh" onclick="refresh()" type="button" value="Clique aqui para voltar zerar.">
+    </header>
+    <section>
+        <div id="msg">
+            Clique no botão acima para mostrar que o horário atual!
+        </div>
+        <div id="foto">
+            <img id="imagem" src="" alt="Foto da dia">            
+        </div>
+    </section>
+    <footer>
+        <p id="footer">Feito por Bruno Prado</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
